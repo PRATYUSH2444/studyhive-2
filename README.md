@@ -401,7 +401,13 @@ Private project. Collaboration by invitation only.
 
 ## 📄 License
 
-Private — All rights reserved © 2026 StudyHive
+Copyright © 2026 **Pratyush Prakash** — StudyHive. All rights reserved.
+
+This is proprietary software. Unauthorized copying, modification, distribution,
+or use of this software, via any medium, is strictly prohibited without explicit
+written permission from the author.
+
+**Contact:** prakash.pratyush20@gmail.com
 
 ---
 
