@@ -180,9 +180,9 @@ OAuth     ──▶  Google Cloud  free forever
 Design    ──▶  Google Stitch MCP import via Antigravity
 
 ---
-
-Find the ## 📁 Project Structure section and replace it with:
 ## 📁 Project Structure
+
+```text
 studyhive-2/                 ← Monorepo root
 ├── 📦 studyhive-2/          ← React Frontend
 │   └── src/
@@ -226,7 +226,7 @@ studyhive-2/                 ← Monorepo root
 │       └── middleware/  auth · rateLimit · errorHandler
 │
 └── 📋 DESIGN.md             Design DNA from Google Stitch
-
+```
 ---
 
 ## 🔌 API Reference
