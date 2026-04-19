@@ -181,51 +181,51 @@ Design    ──▶  Google Stitch MCP import via Antigravity
 
 ---
 
+Find the ## 📁 Project Structure section and replace it with:
 ## 📁 Project Structure
-studyhive-2/                    ← Monorepo root
-│
-├── studyhive-2/                ← React Frontend
+studyhive-2/                 ← Monorepo root
+├── 📦 studyhive-2/          ← React Frontend
 │   └── src/
 │       ├── components/
-│       │   ├── aria/           ARIAChat · ARIABrief · Badge
-│       │   ├── battle/         Arena · Timer · QuestionCard
-│       │   ├── dashboard/      BriefPanel · FeedPanel · GraphPanel
-│       │   ├── gsap/           MagneticButton · ScrollReveal · Counter
-│       │   ├── layout/         AppShell · AuthGuard · Navbar · Sidebar
-│       │   ├── three/          KnowledgeGraph3D · ParticleField
-│       │   └── ui/             ShadCN + custom components
+│       │   ├── aria/        ARIAChat · ARIABrief · Badge
+│       │   ├── battle/      Arena · Timer · QuestionCard
+│       │   ├── dashboard/   BriefPanel · FeedPanel · GraphPanel
+│       │   ├── gsap/        Magnetic · ScrollReveal · Counter
+│       │   ├── layout/      AppShell · AuthGuard · Navbar · Sidebar
+│       │   ├── three/       KnowledgeGraph3D · ParticleField
+│       │   └── ui/          ShadCN + custom components
 │       ├── pages/
-│       │   ├── Landing.tsx     Public landing page
-│       │   ├── LoginPage.tsx   Auth login
-│       │   ├── RegisterPage.tsx 2-step registration
-│       │   ├── Dashboard.tsx   Mission Control war room
-│       │   ├── AICoachPage.tsx ARIA chat interface
-│       │   ├── BattleArenaPage.tsx Battle modes + arena
-│       │   ├── AnalyticsPage.tsx Cognitive report
-│       │   ├── HiveRoomsPage.tsx Social study
-│       │   ├── DeepStudyPage.tsx AI tools
-│       │   ├── ExamForgePage.tsx Mock generator
-│       │   └── SchedulePage.tsx AI calendar
-│       ├── hooks/              useARIA · useBattle · useSocket · useAnalytics
-│       ├── store/              useUserStore · useARIAStore · useBattleStore
-│       ├── lib/                api.ts · socket.ts
-│       ├── constants/          exams · ranks · routes
-│       └── types/              user · aria · battle · question
+│       │   ├── Landing.tsx          Public landing
+│       │   ├── LoginPage.tsx        Auth login
+│       │   ├── RegisterPage.tsx     2-step registration
+│       │   ├── Dashboard.tsx        Mission Control
+│       │   ├── AICoachPage.tsx      ARIA chat
+│       │   ├── BattleArenaPage.tsx  Battle modes
+│       │   ├── AnalyticsPage.tsx    Cognitive report
+│       │   ├── HiveRoomsPage.tsx    Social study
+│       │   ├── DeepStudyPage.tsx    AI tools
+│       │   ├── ExamForgePage.tsx    Mock generator
+│       │   └── SchedulePage.tsx     AI calendar
+│       ├── hooks/       useARIA · useBattle · useSocket · useAnalytics
+│       ├── store/       useUserStore · useARIAStore · useBattleStore
+│       ├── lib/         api.ts · socket.ts
+│       ├── constants/   exams · ranks · routes
+│       └── types/       user · aria · battle · question
 │
-├── backend/                    ← Node.js Backend
+├── ⚙️  backend/             ← Node.js Backend
 │   └── src/
-│       ├── config/             db · gemini · redis · cloudinary
-│       ├── models/             User · ARIAProfile · Battle · Question
-│       │                       Session · Note · Room · Notification
-│       ├── routes/             auth · aria · questions · battles
-│       │                       analytics · rooms · scheduler · users
-│       ├── services/           gemini · aria · scoring · email
-│       ├── socket/             index · battle · room
-│       ├── jobs/               forgettingCurve · scoreProjection
-│       │                       dailyBlitz · weeklyReport
-│       └── middleware/         auth · rateLimit · errorHandler
+│       ├── config/      db · gemini · redis · cloudinary
+│       ├── models/      User · ARIAProfile · Battle · Question
+│       │                Session · Note · Room · Notification
+│       ├── routes/      auth · aria · questions · battles
+│       │                analytics · rooms · scheduler · users
+│       ├── services/    gemini · aria · scoring · email
+│       ├── socket/      index · battle · room
+│       ├── jobs/        forgettingCurve · scoreProjection
+│       │                dailyBlitz · weeklyReport
+│       └── middleware/  auth · rateLimit · errorHandler
 │
-└── DESIGN.md                   Design DNA from Google Stitch
+└── 📋 DESIGN.md             Design DNA from Google Stitch
 
 ---
 
