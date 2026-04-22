@@ -464,8 +464,6 @@ Earned through:
 
 **Pratyush Prakash**
 
-Computer Engineering · Marwadi University · CGPA 8.8
-
 [![GitHub](https://img.shields.io/badge/GitHub-PRATYUSH2444-181717?style=for-the-badge&logo=github)](https://github.com/PRATYUSH2444)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Pratyush_Prakash-0A66C2?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/pratyush-prakash-4b2ab0288)
 [![Email](https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:prakash.pratyush20@gmail.com)
